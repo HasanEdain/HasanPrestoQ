@@ -2,11 +2,23 @@
 A code exercise looking at a PrestoQ API
 A single UICollectionViewController displaying a list of Manager Specials.
 
+## Requirements
+Xcode 10.1 (or later)
+Swift 4.2
+Internet connection that can reach PrestoQ endpoint
+
+## Install / run
+1. checkout repository
+1. run in Xcode
+
+## Unit test
+Unit tests exist for a single class, in a delivery environment more classes should be tested more thouroughly 
+
 ## To note:
     
     * Calls PrestoQ API for data (and on each data item for it's image)
     * Uses a UICollectionViewController to display data
-    * Uses MIT licence
+    * MIT licence
     * Has Unit tests to cover ManagerSpecial  class (should cover all classes)
     * The only place where Accissibility is not automatic (product image) an accessability label has been added
     * The "Cell Width" data downloaded is respected for layout purposes. This results in some unusable cells. A realimplementation would handle this case.
