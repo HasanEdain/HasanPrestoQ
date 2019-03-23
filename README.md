@@ -1,7 +1,8 @@
 # HasanPrestoQ
 A code exercise looking at a PrestoQ API
+A single UICollectionViewController displaying a list of Manager Specials.
 
-To note:
+## To note:
     
     * Calls PrestoQ API for data (and on each data item for it's image)
     * Uses a UICollectionViewController to display data
@@ -13,10 +14,14 @@ To note:
     * Uses currency formatter with the current locale so that if you change region, the currency symbol is appropriate (unit tests will fail)
     * Added a particle effect overlaid above the product image
 
-Thoughts on improvements
+## Thoughts on improvements
     
     * If cell is not right type handling 
     * Localization
     * Todo audit
     * pull to refresh
     * refresh poll?
+    * Spinner durring data load (initial and product images)
+    * Error communication to the user
+    * Better Icon and Splash Screen
+    * Refine sparkle effect

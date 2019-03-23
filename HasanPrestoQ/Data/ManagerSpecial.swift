@@ -13,7 +13,6 @@ struct ManagerSpecial: Codable {
     let width: Int
     let height: Int
     let display_name: String
-    //TODO: Change to type Decimal and use locale to present a properly internationalized interface.
     let original_price: String
     let price: String
 
@@ -53,33 +52,6 @@ struct ManagerSpecial: Codable {
         } else {
             return Decimal.nan
         }
-    }
-
-    //TODO: Refactor this out of this class to a parameterized utility struct
-    static func attributedString(numberString: String) -> NSAttributedString {
-        var resultString: NSAttributedString = NSAttributedString(string: "")
-
-        if let double = Double(numberString) {
-            let numberFormatter = NumberFormatter()
-            numberFormatter.locale = Locale.current
-            numberFormatter.numberStyle = .currency
-            let nsNumber = NSNumber(value: double)
-            if let numberString = numberFormatter.string(from: nsNumber) {
-                resultString = NSAttributedString(string: numberString)
-            }
-        }
-
-        return resultString
-    }
-
-    //TODO: Refactor this out of this class to a parameterized utility struct
-    static func strikethroughAttributedString(numberString:String) -> NSAttributedString {
-        let originalString = attributedString(numberString: numberString)
-        let newString = NSMutableAttributedString(attributedString: originalString)
-        let range = NSRange(location: 0, length: originalString.length)
-        newString.addAttribute(.strikethroughStyle, value: 2, range: range)
-
-        return newString
     }
 
 }
