@@ -62,7 +62,8 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let maxCellWidth = CGFloat(collectionView.frame.size.width)
-        let defaultHeight: CGFloat = 128.0
+        let defaultHeight: CGFloat = 110.0
+        let minimumCellWidth: CGFloat = 110.0
         var size = CGSize(width: maxCellWidth, height: defaultHeight)
         let canvasUnit: CGFloat
         if let managerSpecials = managerSpecials {
@@ -82,9 +83,9 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
                 lineSpacing = 10.0
             }
 
-            let cellWidth = (canvasUnitWidth * canvasUnitPoints) - lineSpacing
+            let cellWidth = max( minimumCellWidth, ((canvasUnitWidth * canvasUnitPoints) - lineSpacing) )
             //TODO: preserve the aspect ratio of the cell better than just removing the same number of pixels?
-            let cellHeight = canvasUnitHeight * canvasUnitPoints - lineSpacing
+            let cellHeight = max(defaultHeight, (canvasUnitHeight * canvasUnitPoints - lineSpacing)) 
             size = CGSize(width: cellWidth, height: cellHeight)
         }
 
