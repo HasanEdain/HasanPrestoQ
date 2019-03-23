@@ -27,5 +27,5 @@ A single UICollectionViewController displaying a list of Manager Specials.
     * Refine sparkle effect
     
     ## Screenshots
-    ![Screenshot](README_Screenshots/items.png?raw=true "Main Screen")
-    ![Screenshot](README_Screenshots/items2.png?raw=true "Main Screen with sparkle")
+    ![Screenshot](README_Screenshots/Items.png?raw=true "Main Screen")
+    ![Screenshot](README_Screenshots/Items2.png?raw=true "Main Screen with sparkle")
