@@ -26,6 +26,6 @@ A single UICollectionViewController displaying a list of Manager Specials.
     * Better Icon and Splash Screen
     * Refine sparkle effect
     
-    ## Screenshots
-    <img src="https://github.com/HasanEdain/HasanPrestoQ/blob/master/README_Screenshots/Items.png" width="400"/>
-    <img src="https://github.com/HasanEdain/HasanPrestoQ/blob/master/README_Screenshots/Items2.png" width="400"/>
+## Screenshots
+<img src="https://github.com/HasanEdain/HasanPrestoQ/blob/master/README_Screenshots/Items.png" width="400"/>
+<img src="https://github.com/HasanEdain/HasanPrestoQ/blob/master/README_Screenshots/Items2.png" width="400"/>
