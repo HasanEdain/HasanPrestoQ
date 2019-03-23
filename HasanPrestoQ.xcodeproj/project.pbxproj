@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		FE24237F2245F9D60077FCAB /* ManagerSpecialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecialTests.swift; sourceTree = "<group>"; };
+		FE242381224615840077FCAB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FEA6DD4C224203760049A70E /* HasanPrestoQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HasanPrestoQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA6DD4F224203760049A70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagersSpecialsViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 		FEA6DD43224203760049A70E = {
 			isa = PBXGroup;
 			children = (
+				FE242381224615840077FCAB /* LICENSE */,
 				FEA6DD7D224203CC0049A70E /* README.md */,
 				FEA6DD4E224203760049A70E /* HasanPrestoQ */,
 				FEA6DD63224203780049A70E /* HasanPrestoQTests */,
