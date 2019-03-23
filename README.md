@@ -1,11 +1,12 @@
 # HasanPrestoQ
-A code exercise looking at a PrestoQ API
-A single UICollectionViewController displaying a list of Manager Specials.
+
+    A code exercise looking at a PrestoQ API
+    A single UICollectionViewController displaying a list of Manager Specials.
 
 ## Requirements
-Xcode 10.1 (or later)
-Swift 4.2
-Internet connection that can reach PrestoQ endpoint
+    Xcode 10.1 (or later)
+    Swift 4.2
+    Internet connection that can reach PrestoQ endpoint
 
 ## Install / run
 1. checkout repository
