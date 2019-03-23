@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE2423802245F9D60077FCAB /* ManagerSpecialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24237F2245F9D60077FCAB /* ManagerSpecialTests.swift */; };
+		FEA6DD50224203760049A70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD4F224203760049A70E /* AppDelegate.swift */; };
+		FEA6DD52224203760049A70E /* ManagersSpecialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */; };
+		FEA6DD55224203760049A70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DD53224203760049A70E /* Main.storyboard */; };
+		FEA6DD57224203780049A70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DD56224203780049A70E /* Assets.xcassets */; };
+		FEA6DD5A224203780049A70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DD58224203780049A70E /* LaunchScreen.storyboard */; };
+		FEA6DD70224203780049A70E /* HasanPrestoQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD6F224203780049A70E /* HasanPrestoQUITests.swift */; };
+		FEA6DD7F224203FB0049A70E /* PrestoQFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD7E224203FB0049A70E /* PrestoQFetcher.swift */; };
+		FEA6DD81224207FE0049A70E /* ManagerSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD80224207FE0049A70E /* ManagerSpecial.swift */; };
+		FEA6DD8322420B1A0049A70E /* ManagersSpecials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD8222420B1A0049A70E /* ManagersSpecials.swift */; };
+		FEA6DD8522420E230049A70E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD8422420E230049A70E /* DataManager.swift */; };
+		FEA6DD87224228590049A70E /* ManagerSpecialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA6DD61224203780049A70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA6DD44224203760049A70E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA6DD4B224203760049A70E;
+			remoteInfo = HasanPrestoQ;
+		};
+		FEA6DD6C224203780049A70E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA6DD44224203760049A70E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA6DD4B224203760049A70E;
+			remoteInfo = HasanPrestoQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE24237F2245F9D60077FCAB /* ManagerSpecialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecialTests.swift; sourceTree = "<group>"; };
+		FEA6DD4C224203760049A70E /* HasanPrestoQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HasanPrestoQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA6DD4F224203760049A70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagersSpecialsViewController.swift; sourceTree = "<group>"; };
+		FEA6DD54224203760049A70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA6DD56224203780049A70E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA6DD59224203780049A70E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA6DD5B224203780049A70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA6DD60224203780049A70E /* HasanPrestoQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HasanPrestoQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA6DD66224203780049A70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA6DD6B224203780049A70E /* HasanPrestoQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HasanPrestoQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA6DD6F224203780049A70E /* HasanPrestoQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasanPrestoQUITests.swift; sourceTree = "<group>"; };
+		FEA6DD71224203780049A70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA6DD7D224203CC0049A70E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FEA6DD7E224203FB0049A70E /* PrestoQFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestoQFetcher.swift; sourceTree = "<group>"; };
+		FEA6DD80224207FE0049A70E /* ManagerSpecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecial.swift; sourceTree = "<group>"; };
+		FEA6DD8222420B1A0049A70E /* ManagersSpecials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagersSpecials.swift; sourceTree = "<group>"; };
+		FEA6DD8422420E230049A70E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecialCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA6DD49224203760049A70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6DD5D224203780049A70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6DD68224203780049A70E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE24237D2244C3290077FCAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6DD8422420E230049A70E /* DataManager.swift */,
+				FEA6DD7E224203FB0049A70E /* PrestoQFetcher.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FE24237E2245F7C30077FCAB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6DD80224207FE0049A70E /* ManagerSpecial.swift */,
+				FEA6DD8222420B1A0049A70E /* ManagersSpecials.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FEA6DD43224203760049A70E = {
+			isa = PBXGroup;
+			children = (
+				FEA6DD7D224203CC0049A70E /* README.md */,
+				FEA6DD4E224203760049A70E /* HasanPrestoQ */,
+				FEA6DD63224203780049A70E /* HasanPrestoQTests */,
+				FEA6DD6E224203780049A70E /* HasanPrestoQUITests */,
+				FEA6DD4D224203760049A70E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA6DD4D224203760049A70E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6DD4C224203760049A70E /* HasanPrestoQ.app */,
+				FEA6DD60224203780049A70E /* HasanPrestoQTests.xctest */,
+				FEA6DD6B224203780049A70E /* HasanPrestoQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA6DD4E224203760049A70E /* HasanPrestoQ */ = {
+			isa = PBXGroup;
+			children = (
+				FE24237E2245F7C30077FCAB /* Data */,
+				FEA6DD4F224203760049A70E /* AppDelegate.swift */,
+				FEA6DD56224203780049A70E /* Assets.xcassets */,
+				FEA6DD5B224203780049A70E /* Info.plist */,
+				FEA6DD58224203780049A70E /* LaunchScreen.storyboard */,
+				FEA6DD53224203760049A70E /* Main.storyboard */,
+				FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */,
+				FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */,
+				FE24237D2244C3290077FCAB /* Network */,
+			);
+			path = HasanPrestoQ;
+			sourceTree = "<group>";
+		};
+		FEA6DD63224203780049A70E /* HasanPrestoQTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6DD66224203780049A70E /* Info.plist */,
+				FE24237F2245F9D60077FCAB /* ManagerSpecialTests.swift */,
+			);
+			path = HasanPrestoQTests;
+			sourceTree = "<group>";
+		};
+		FEA6DD6E224203780049A70E /* HasanPrestoQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6DD6F224203780049A70E /* HasanPrestoQUITests.swift */,
+				FEA6DD71224203780049A70E /* Info.plist */,
+			);
+			path = HasanPrestoQUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA6DD4B224203760049A70E /* HasanPrestoQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA6DD74224203780049A70E /* Build configuration list for PBXNativeTarget "HasanPrestoQ" */;
+			buildPhases = (
+				FEA6DD48224203760049A70E /* Sources */,
+				FEA6DD49224203760049A70E /* Frameworks */,
+				FEA6DD4A224203760049A70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HasanPrestoQ;
+			productName = HasanPrestoQ;
+			productReference = FEA6DD4C224203760049A70E /* HasanPrestoQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA6DD5F224203780049A70E /* HasanPrestoQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA6DD77224203780049A70E /* Build configuration list for PBXNativeTarget "HasanPrestoQTests" */;
+			buildPhases = (
+				FEA6DD5C224203780049A70E /* Sources */,
+				FEA6DD5D224203780049A70E /* Frameworks */,
+				FEA6DD5E224203780049A70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA6DD62224203780049A70E /* PBXTargetDependency */,
+			);
+			name = HasanPrestoQTests;
+			productName = HasanPrestoQTests;
+			productReference = FEA6DD60224203780049A70E /* HasanPrestoQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA6DD6A224203780049A70E /* HasanPrestoQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA6DD7A224203780049A70E /* Build configuration list for PBXNativeTarget "HasanPrestoQUITests" */;
+			buildPhases = (
+				FEA6DD67224203780049A70E /* Sources */,
+				FEA6DD68224203780049A70E /* Frameworks */,
+				FEA6DD69224203780049A70E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA6DD6D224203780049A70E /* PBXTargetDependency */,
+			);
+			name = HasanPrestoQUITests;
+			productName = HasanPrestoQUITests;
+			productReference = FEA6DD6B224203780049A70E /* HasanPrestoQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA6DD44224203760049A70E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "NPC Unlimited";
+				TargetAttributes = {
+					FEA6DD4B224203760049A70E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FEA6DD5F224203780049A70E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FEA6DD4B224203760049A70E;
+					};
+					FEA6DD6A224203780049A70E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FEA6DD4B224203760049A70E;
+					};
+				};
+			};
+			buildConfigurationList = FEA6DD47224203760049A70E /* Build configuration list for PBXProject "HasanPrestoQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA6DD43224203760049A70E;
+			productRefGroup = FEA6DD4D224203760049A70E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA6DD4B224203760049A70E /* HasanPrestoQ */,
+				FEA6DD5F224203780049A70E /* HasanPrestoQTests */,
+				FEA6DD6A224203780049A70E /* HasanPrestoQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA6DD4A224203760049A70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA6DD5A224203780049A70E /* LaunchScreen.storyboard in Resources */,
+				FEA6DD57224203780049A70E /* Assets.xcassets in Resources */,
+				FEA6DD55224203760049A70E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6DD5E224203780049A70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6DD69224203780049A70E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA6DD48224203760049A70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA6DD7F224203FB0049A70E /* PrestoQFetcher.swift in Sources */,
+				FEA6DD87224228590049A70E /* ManagerSpecialCollectionViewCell.swift in Sources */,
+				FEA6DD8522420E230049A70E /* DataManager.swift in Sources */,
+				FEA6DD52224203760049A70E /* ManagersSpecialsViewController.swift in Sources */,
+				FEA6DD50224203760049A70E /* AppDelegate.swift in Sources */,
+				FEA6DD8322420B1A0049A70E /* ManagersSpecials.swift in Sources */,
+				FEA6DD81224207FE0049A70E /* ManagerSpecial.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6DD5C224203780049A70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2423802245F9D60077FCAB /* ManagerSpecialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6DD67224203780049A70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA6DD70224203780049A70E /* HasanPrestoQUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA6DD62224203780049A70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA6DD4B224203760049A70E /* HasanPrestoQ */;
+			targetProxy = FEA6DD61224203780049A70E /* PBXContainerItemProxy */;
+		};
+		FEA6DD6D224203780049A70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA6DD4B224203760049A70E /* HasanPrestoQ */;
+			targetProxy = FEA6DD6C224203780049A70E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA6DD53224203760049A70E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA6DD54224203760049A70E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA6DD58224203780049A70E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA6DD59224203780049A70E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA6DD72224203780049A70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEA6DD73224203780049A70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA6DD75224203780049A70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				INFOPLIST_FILE = HasanPrestoQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.HasanPrestoQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEA6DD76224203780049A70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				INFOPLIST_FILE = HasanPrestoQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.HasanPrestoQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEA6DD78224203780049A70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				INFOPLIST_FILE = HasanPrestoQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.HasanPrestoQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HasanPrestoQ.app/HasanPrestoQ";
+			};
+			name = Debug;
+		};
+		FEA6DD79224203780049A70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				INFOPLIST_FILE = HasanPrestoQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.HasanPrestoQTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HasanPrestoQ.app/HasanPrestoQ";
+			};
+			name = Release;
+		};
+		FEA6DD7B224203780049A70E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				INFOPLIST_FILE = HasanPrestoQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.HasanPrestoQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HasanPrestoQ;
+			};
+			name = Debug;
+		};
+		FEA6DD7C224203780049A70E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				INFOPLIST_FILE = HasanPrestoQUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.HasanPrestoQUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HasanPrestoQ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA6DD47224203760049A70E /* Build configuration list for PBXProject "HasanPrestoQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA6DD72224203780049A70E /* Debug */,
+				FEA6DD73224203780049A70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA6DD74224203780049A70E /* Build configuration list for PBXNativeTarget "HasanPrestoQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA6DD75224203780049A70E /* Debug */,
+				FEA6DD76224203780049A70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA6DD77224203780049A70E /* Build configuration list for PBXNativeTarget "HasanPrestoQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA6DD78224203780049A70E /* Debug */,
+				FEA6DD79224203780049A70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA6DD7A224203780049A70E /* Build configuration list for PBXNativeTarget "HasanPrestoQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA6DD7B224203780049A70E /* Debug */,
+				FEA6DD7C224203780049A70E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEA6DD44224203760049A70E /* Project object */;
+}
