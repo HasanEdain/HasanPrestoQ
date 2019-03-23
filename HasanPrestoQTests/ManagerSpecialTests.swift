@@ -68,16 +68,16 @@ class ManagerSpecialTests: XCTestCase {
     //TODO: Test where I ensure the locale is set a particular way, and I get the correct currency symbol
     // As best as I can determine this requires a seperate test target per localization, more than I am ready
     // for in example code.
-    func testAttributedString() {
-        let attributedString = ManagerSpecial.attributedString(numberString: originalPrice)
+    func testAttributedPriceString() {
+        let attributedString = StringUtility.attributedPriceString(numberString: originalPrice)
         XCTAssertNotNil(attributedString)
         let string = attributedString.string
         let compareString = "$\(originalPrice)"
         XCTAssert(string == compareString)
     }
 
-    func testStrikethroughAttributedString() {
-        let strikethourhString = ManagerSpecial.strikethroughAttributedString(numberString: originalPrice)
+    func testStrikethroughAttributedPriceString() {
+        let strikethourhString = StringUtility.strikethroughAttributedPriceString(numberString: originalPrice)
         XCTAssertNotNil(strikethourhString)
         let string = strikethourhString.string
         let compareString = "$\(originalPrice)"
