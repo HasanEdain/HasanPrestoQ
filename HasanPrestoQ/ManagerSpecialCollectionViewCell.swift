@@ -21,10 +21,13 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
 
     func configure(managerSpecial: ManagerSpecial) {
 
-        //TODO: the drop shadow is square, for a rounded "card"
+        self.contentView.layer.cornerRadius = 8.0
+        self.contentView.layer.borderWidth = 1.0
+        self.contentView.layer.borderColor = UIColor.clear.cgColor
+        self.contentView.layer.masksToBounds = true
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        self.layer.shadowRadius = 3.0
+        self.layer.shadowRadius = 8.0
         self.layer.shadowOpacity = 0.25
         self.layer.masksToBounds = false
         self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.contentView.layer.cornerRadius).cgPath
