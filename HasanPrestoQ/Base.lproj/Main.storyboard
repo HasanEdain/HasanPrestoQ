@@ -40,6 +40,10 @@
                                                         <constraint firstAttribute="width" secondItem="VHt-q7-v2A" secondAttribute="height" multiplier="1:1" id="ijN-aA-aKL"/>
                                                     </constraints>
                                                 </imageView>
+                                                <skView contentMode="scaleToFill" allowsTransparency="YES" sceneName="SparkleScene.sks" translatesAutoresizingMaskIntoConstraints="NO" id="Rd1-wa-aCZ" customClass="SparkleView" customModule="HasanPrestoQ" customModuleProvider="target">
+                                                    <rect key="frame" x="8" y="8" width="69.5" height="69.5"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </skView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="749" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSQ-LM-32f">
                                                     <rect key="frame" x="85.5" y="45" width="87.5" height="29"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
@@ -62,9 +66,12 @@
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstItem="VHt-q7-v2A" firstAttribute="top" secondItem="062-X3-lFk" secondAttribute="top" constant="8" id="1dg-yR-Y95"/>
+                                                <constraint firstItem="Rd1-wa-aCZ" firstAttribute="bottom" secondItem="VHt-q7-v2A" secondAttribute="bottom" id="4YQ-js-CSx"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="BIn-Ax-VyK" secondAttribute="bottom" id="7Ru-JI-onj"/>
+                                                <constraint firstItem="Rd1-wa-aCZ" firstAttribute="trailing" secondItem="VHt-q7-v2A" secondAttribute="trailing" id="A8X-Hp-4Kk"/>
                                                 <constraint firstItem="VHt-q7-v2A" firstAttribute="leading" secondItem="062-X3-lFk" secondAttribute="leading" constant="8" id="D0q-xP-IJN"/>
                                                 <constraint firstAttribute="trailing" secondItem="XT6-KV-LjF" secondAttribute="trailing" constant="8" id="DSo-Zc-Z4A"/>
+                                                <constraint firstItem="Rd1-wa-aCZ" firstAttribute="leading" secondItem="VHt-q7-v2A" secondAttribute="leading" id="LyI-5J-7Aq"/>
                                                 <constraint firstItem="BIn-Ax-VyK" firstAttribute="leading" secondItem="062-X3-lFk" secondAttribute="leadingMargin" constant="8" id="MzY-tI-34n"/>
                                                 <constraint firstItem="BIn-Ax-VyK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="xSQ-LM-32f" secondAttribute="bottom" constant="8" id="ZPo-X9-tss"/>
                                                 <constraint firstItem="BIn-Ax-VyK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="VHt-q7-v2A" secondAttribute="bottom" constant="8" id="cCT-vc-7iM"/>
@@ -72,6 +79,7 @@
                                                 <constraint firstItem="xSQ-LM-32f" firstAttribute="trailing" secondItem="XT6-KV-LjF" secondAttribute="trailing" id="fC1-9x-HI6"/>
                                                 <constraint firstItem="XT6-KV-LjF" firstAttribute="top" secondItem="062-X3-lFk" secondAttribute="top" constant="8" id="hTc-aS-j45"/>
                                                 <constraint firstItem="xSQ-LM-32f" firstAttribute="top" secondItem="XT6-KV-LjF" secondAttribute="bottom" constant="8" id="kw8-zU-AGe"/>
+                                                <constraint firstItem="Rd1-wa-aCZ" firstAttribute="top" secondItem="VHt-q7-v2A" secondAttribute="top" id="mWJ-OW-DlK"/>
                                                 <constraint firstItem="xSQ-LM-32f" firstAttribute="leading" secondItem="XT6-KV-LjF" secondAttribute="leading" id="vje-T9-mM2"/>
                                                 <constraint firstItem="XT6-KV-LjF" firstAttribute="leading" secondItem="VHt-q7-v2A" secondAttribute="trailing" constant="8" id="z3i-Qt-YwS"/>
                                             </constraints>
