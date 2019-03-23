@@ -15,7 +15,6 @@ protocol DataManagerDelegate {
 }
 
 class DataManager: PrestoQFetcherDelegate {
-    //TODO: Add to the list of URLS in the PLIST
     let managersSpecialsEndpointString = "https://prestoq.com/ios-coding-challenge"
     var managersSpecials: ManagersSpecials?
     private var fetcher: PrestoQFetcher?
@@ -64,9 +63,8 @@ class DataManager: PrestoQFetcherDelegate {
                 delegate.fetchFailed()
             }
         } catch let DecodingError.keyNotFound(key, context) {
-            //TODO: Convert to OS_Log
-            print("Key '\(key)' not found:", context.debugDescription)
-            print("codingPath:", context.codingPath)
+            let errorString = "Key: \(key) Context: \(context)"
+            os_log("Decoding Error: %@", errorString)
             if let delegate = self.dataManagerDelegate {
                 delegate.fetchFailed()
             }

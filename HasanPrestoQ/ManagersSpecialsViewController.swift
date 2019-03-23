@@ -10,7 +10,8 @@ import UIKit
 import os.log
 
 class ManagersSpecialsViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout, DataManagerDelegate {
-
+    @IBOutlet weak var downloadActivityView: UIActivityIndicatorView!
+    
     let cellIdentifier = "ManagerSpecialCell"
 
     let dataManager = DataManager()
@@ -18,20 +19,19 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-         //TODO: Add spinner and start it in view did load
         dataManager.dataManagerDelegate = self
         dataManager.start()
     }
 
     func managersSpecialsDataReceived(specials: ManagersSpecials) {
         self.managerSpecials = specials
-        //TODO: Stop spinner
         self.collectionView.reloadData()
+        downloadActivityView.stopAnimating()
     }
 
     func fetchFailed() {
-        //TODO: Stop Spinner
         //TODO: message user
+        downloadActivityView.stopAnimating()
     }
 
     //MARK: - UICollectionView
