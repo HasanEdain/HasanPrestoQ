@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SpriteKit
 import CoreGraphics
 import os.log
 
@@ -20,29 +21,16 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
     var imageFetcher: PrestoQFetcher?
 
     func configure(managerSpecial: ManagerSpecial) {
-
-        self.contentView.layer.cornerRadius = 8.0
-        self.contentView.layer.borderWidth = 1.0
-        self.contentView.layer.borderColor = UIColor.clear.cgColor
-        self.contentView.layer.masksToBounds = true
-        self.layer.shadowColor = UIColor.black.cgColor
-        self.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        self.layer.shadowRadius = 8.0
-        self.layer.shadowOpacity = 0.25
-        self.layer.masksToBounds = false
-        self.layer.shadowPath = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.contentView.layer.cornerRadius).cgPath
+        DropShadowUtility.addDropShadow(cell: self)
 
         self.managerSpecial = managerSpecial
         //TODO: cache fetched images and don't refetch on a scroll
         fetchProductImage()
         updateUserInterface()
-
     }
 
     func updateUserInterface() {
         if let special = self.managerSpecial {
-            //TODO: Fetch Product image from URL
-            //TODO: Use a decimal formatter and locale for prices
             if let originalPrice = managerSpecial?.original_price {
                 originalPriceLabel.attributedText = ManagerSpecial.strikethroughAttributedString(numberString: originalPrice)
             }
@@ -51,10 +39,7 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
                 priceLabel.attributedText = ManagerSpecial.attributedString(numberString: price)
             }
 
-            // TODO: for wider cell layouts wrap description
             displayNameLabel.text = special.display_name
-
-
             productImage.accessibilityLabel = "\(special.display_name)"
         }
     }
@@ -86,5 +71,4 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
     func errorReceived(error: Error) {
         os_log("Error retreiving image: %@", error.localizedDescription)
     }
-
 }

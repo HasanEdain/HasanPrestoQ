@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FE2423802245F9D60077FCAB /* ManagerSpecialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24237F2245F9D60077FCAB /* ManagerSpecialTests.swift */; };
+		FE9A39EA22468D2900BA21BD /* DropShadowUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */; };
+		FE9A39EE2246924300BA21BD /* SparkleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE9A39ED2246924300BA21BD /* SparkleScene.sks */; };
+		FEA6161E22469675001D446A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA6161D22469675001D446A /* SpriteKit.framework */; };
 		FEA6DD50224203760049A70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD4F224203760049A70E /* AppDelegate.swift */; };
 		FEA6DD52224203760049A70E /* ManagersSpecialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */; };
 		FEA6DD55224203760049A70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DD53224203760049A70E /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		FE24237F2245F9D60077FCAB /* ManagerSpecialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecialTests.swift; sourceTree = "<group>"; };
 		FE242381224615840077FCAB /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowUtility.swift; sourceTree = "<group>"; };
+		FE9A39ED2246924300BA21BD /* SparkleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkleScene.sks; sourceTree = "<group>"; };
+		FEA6161D22469675001D446A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		FEA6DD4C224203760049A70E /* HasanPrestoQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HasanPrestoQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA6DD4F224203760049A70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagersSpecialsViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEA6161E22469675001D446A /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +111,22 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		FEA61619224693A8001D446A /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				FE9A39ED2246924300BA21BD /* SparkleScene.sks */,
+			);
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		FEA6161C22469674001D446A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEA6161D22469675001D446A /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEA6DD43224203760049A70E = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +136,7 @@
 				FEA6DD63224203780049A70E /* HasanPrestoQTests */,
 				FEA6DD6E224203780049A70E /* HasanPrestoQUITests */,
 				FEA6DD4D224203760049A70E /* Products */,
+				FEA6161C22469674001D446A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,15 +153,17 @@
 		FEA6DD4E224203760049A70E /* HasanPrestoQ */ = {
 			isa = PBXGroup;
 			children = (
-				FE24237E2245F7C30077FCAB /* Data */,
 				FEA6DD4F224203760049A70E /* AppDelegate.swift */,
 				FEA6DD56224203780049A70E /* Assets.xcassets */,
+				FE24237E2245F7C30077FCAB /* Data */,
+				FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */,
 				FEA6DD5B224203780049A70E /* Info.plist */,
 				FEA6DD58224203780049A70E /* LaunchScreen.storyboard */,
 				FEA6DD53224203760049A70E /* Main.storyboard */,
 				FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */,
 				FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */,
 				FE24237D2244C3290077FCAB /* Network */,
+				FEA61619224693A8001D446A /* Sparkle */,
 			);
 			path = HasanPrestoQ;
 			sourceTree = "<group>";
@@ -265,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA6DD5A224203780049A70E /* LaunchScreen.storyboard in Resources */,
+				FE9A39EE2246924300BA21BD /* SparkleScene.sks in Resources */,
 				FEA6DD57224203780049A70E /* Assets.xcassets in Resources */,
 				FEA6DD55224203760049A70E /* Main.storyboard in Resources */,
 			);
@@ -292,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEA6DD7F224203FB0049A70E /* PrestoQFetcher.swift in Sources */,
+				FE9A39EA22468D2900BA21BD /* DropShadowUtility.swift in Sources */,
 				FEA6DD87224228590049A70E /* ManagerSpecialCollectionViewCell.swift in Sources */,
 				FEA6DD8522420E230049A70E /* DataManager.swift in Sources */,
 				FEA6DD52224203760049A70E /* ManagersSpecialsViewController.swift in Sources */,

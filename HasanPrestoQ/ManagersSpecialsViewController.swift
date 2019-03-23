@@ -100,5 +100,6 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
         return headerView
     }
 
+
 }
 
