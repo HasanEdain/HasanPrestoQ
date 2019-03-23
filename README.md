@@ -27,5 +27,5 @@ A single UICollectionViewController displaying a list of Manager Specials.
     * Refine sparkle effect
     
 ## Screenshots
-<img src="https://github.com/HasanEdain/HasanPrestoQ/blob/master/README_Screenshots/Items.png" width="400"/>
-<img src="https://github.com/HasanEdain/HasanPrestoQ/blob/master/README_Screenshots/Items2.png" width="400"/>
+![Screenshot](README_Screenshots/Items.png?raw=true "Screenshot")
+![Screenshot](README_Screenshots/Items2.png?raw=true "Screenshot with sparkle")
