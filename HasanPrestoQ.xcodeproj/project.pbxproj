@@ -11,6 +11,7 @@
 		FE9A39EA22468D2900BA21BD /* DropShadowUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */; };
 		FE9A39EE2246924300BA21BD /* SparkleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE9A39ED2246924300BA21BD /* SparkleScene.sks */; };
 		FEA6161E22469675001D446A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA6161D22469675001D446A /* SpriteKit.framework */; };
+		FEA616252246A457001D446A /* StringUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA616242246A457001D446A /* StringUtility.swift */; };
 		FEA6DD50224203760049A70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD4F224203760049A70E /* AppDelegate.swift */; };
 		FEA6DD52224203760049A70E /* ManagersSpecialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */; };
 		FEA6DD55224203760049A70E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA6DD53224203760049A70E /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropShadowUtility.swift; sourceTree = "<group>"; };
 		FE9A39ED2246924300BA21BD /* SparkleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SparkleScene.sks; sourceTree = "<group>"; };
 		FEA6161D22469675001D446A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FEA616242246A457001D446A /* StringUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtility.swift; sourceTree = "<group>"; };
 		FEA6DD4C224203760049A70E /* HasanPrestoQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HasanPrestoQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA6DD4F224203760049A70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagersSpecialsViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FEA616232246A421001D446A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */,
+				FEA616242246A457001D446A /* StringUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		FEA6DD43224203760049A70E = {
 			isa = PBXGroup;
 			children = (
@@ -153,10 +164,10 @@
 		FEA6DD4E224203760049A70E /* HasanPrestoQ */ = {
 			isa = PBXGroup;
 			children = (
+				FEA616232246A421001D446A /* Utility */,
 				FEA6DD4F224203760049A70E /* AppDelegate.swift */,
 				FEA6DD56224203780049A70E /* Assets.xcassets */,
 				FE24237E2245F7C30077FCAB /* Data */,
-				FE9A39E922468D2900BA21BD /* DropShadowUtility.swift */,
 				FEA6DD5B224203780049A70E /* Info.plist */,
 				FEA6DD58224203780049A70E /* LaunchScreen.storyboard */,
 				FEA6DD53224203760049A70E /* Main.storyboard */,
@@ -326,6 +337,7 @@
 				FEA6DD50224203760049A70E /* AppDelegate.swift in Sources */,
 				FEA6DD8322420B1A0049A70E /* ManagersSpecials.swift in Sources */,
 				FEA6DD81224207FE0049A70E /* ManagerSpecial.swift in Sources */,
+				FEA616252246A457001D446A /* StringUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

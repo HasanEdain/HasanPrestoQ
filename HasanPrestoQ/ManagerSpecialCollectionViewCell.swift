@@ -32,11 +32,11 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
     func updateUserInterface() {
         if let special = self.managerSpecial {
             if let originalPrice = managerSpecial?.original_price {
-                originalPriceLabel.attributedText = ManagerSpecial.strikethroughAttributedString(numberString: originalPrice)
+                originalPriceLabel.attributedText = StringUtility.strikethroughAttributedPriceString(numberString: originalPrice)
             }
 
             if let price = managerSpecial?.price {
-                priceLabel.attributedText = ManagerSpecial.attributedString(numberString: price)
+                priceLabel.attributedText = StringUtility.attributedPriceString(numberString: price)
             }
 
             displayNameLabel.text = special.display_name
