@@ -25,3 +25,7 @@ A single UICollectionViewController displaying a list of Manager Specials.
     * Error communication to the user
     * Better Icon and Splash Screen
     * Refine sparkle effect
+    
+    ## Screenshots
+    ![Items](README_Screenshots/items.jpg?raw=true "Main Screen")
+    ![Items with sparkle](README_Screenshots/items2.jpg?raw=true "Main Screen with sparkle")
