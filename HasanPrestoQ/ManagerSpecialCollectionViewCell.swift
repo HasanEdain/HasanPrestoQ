@@ -47,7 +47,6 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
 
             displayNameLabel.text = special.display_name
             productImage.isAccessibilityElement = true
-//            productImage.accessibilityLabel = "Product Image"
             productImage.accessibilityValue = "\(special.display_name)"
         }
     }

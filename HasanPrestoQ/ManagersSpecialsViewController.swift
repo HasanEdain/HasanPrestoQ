@@ -13,8 +13,8 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
     @IBOutlet weak var downloadActivityView: UIActivityIndicatorView!
     
     let cellIdentifier = "ManagerSpecialCell"
-
-    let dataManager = DataManager()
+    let headerIdentifier = "Header"
+    let dataManager = PrestoQDataManager()
     var managerSpecials: ManagersSpecials?
 
     override func viewDidLoad() {
@@ -97,7 +97,7 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
     }
 
     override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "Header", for: indexPath)
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerIdentifier, for: indexPath)
         return headerView
     }
 
