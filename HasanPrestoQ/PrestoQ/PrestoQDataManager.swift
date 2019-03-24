@@ -91,7 +91,9 @@ class PrestoQDataManager: PrestoQFetcherDelegate {
     func errorReceived(error: Error) {
         os_log("Error fetching Managers specials: %@", error.localizedDescription)
         if let delegate = self.dataManagerDelegate {
-            delegate.fetchFailed()
+            DispatchQueue.main.async {
+                delegate.fetchFailed()
+            }
         }
     }
 
