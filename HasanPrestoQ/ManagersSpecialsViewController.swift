@@ -30,8 +30,17 @@ class ManagersSpecialsViewController: UICollectionViewController, UICollectionVi
     }
 
     func fetchFailed() {
-        //TODO: message user
-        downloadActivityView.stopAnimating()
+        DispatchQueue.main.async {
+            self.downloadActivityView.stopAnimating()
+
+            let alert = UIAlertController(title: "Error fetching specials", message: "Please retry, or try again later", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Retry", style: .default, handler: { action in
+                self.downloadActivityView.startAnimating()
+                self.dataManager.start()
+            }))
+
+            self.present(alert, animated: true)
+        }
     }
 
     //MARK: - UICollectionView
