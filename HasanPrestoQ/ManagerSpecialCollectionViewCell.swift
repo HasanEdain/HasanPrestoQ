@@ -76,6 +76,9 @@ class ManagerSpecialCollectionViewCell: UICollectionViewCell, PrestoQFetcherDele
     }
 
     func errorReceived(error: Error) {
+//        DispatchQueue.main.async {
+            //TODO: maybe put something on the default image to indicate data load failure?
+//        }
         os_log("Error retreiving image: %@", error.localizedDescription)
     }
 }
