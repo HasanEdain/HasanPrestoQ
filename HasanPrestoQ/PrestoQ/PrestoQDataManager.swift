@@ -1,5 +1,5 @@
 //
-//  DataManager.swift
+//  PrestoQDataManager.swift
 //  HasanPrestoQ
 //
 //  Created by Hasan D Edain on 3/19/19.
@@ -14,7 +14,7 @@ protocol DataManagerDelegate {
     func fetchFailed()
 }
 
-class DataManager: PrestoQFetcherDelegate {
+class PrestoQDataManager: PrestoQFetcherDelegate {
     let managersSpecialsEndpointString = "https://prestoq.com/ios-coding-challenge"
     var managersSpecials: ManagersSpecials?
     private var fetcher: PrestoQFetcher?

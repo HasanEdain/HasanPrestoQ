@@ -21,7 +21,7 @@
 		FEA6DD7F224203FB0049A70E /* PrestoQFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD7E224203FB0049A70E /* PrestoQFetcher.swift */; };
 		FEA6DD81224207FE0049A70E /* ManagerSpecial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD80224207FE0049A70E /* ManagerSpecial.swift */; };
 		FEA6DD8322420B1A0049A70E /* ManagersSpecials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD8222420B1A0049A70E /* ManagersSpecials.swift */; };
-		FEA6DD8522420E230049A70E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD8422420E230049A70E /* DataManager.swift */; };
+		FEA6DD8522420E230049A70E /* PrestoQDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD8422420E230049A70E /* PrestoQDataManager.swift */; };
 		FEA6DD87224228590049A70E /* ManagerSpecialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +65,7 @@
 		FEA6DD7E224203FB0049A70E /* PrestoQFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestoQFetcher.swift; sourceTree = "<group>"; };
 		FEA6DD80224207FE0049A70E /* ManagerSpecial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecial.swift; sourceTree = "<group>"; };
 		FEA6DD8222420B1A0049A70E /* ManagersSpecials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagersSpecials.swift; sourceTree = "<group>"; };
-		FEA6DD8422420E230049A70E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FEA6DD8422420E230049A70E /* PrestoQDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrestoQDataManager.swift; sourceTree = "<group>"; };
 		FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerSpecialCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,13 +95,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE24237D2244C3290077FCAB /* Network */ = {
+		FE24237D2244C3290077FCAB /* PrestoQ */ = {
 			isa = PBXGroup;
 			children = (
-				FEA6DD8422420E230049A70E /* DataManager.swift */,
+				FEA6DD8422420E230049A70E /* PrestoQDataManager.swift */,
 				FEA6DD7E224203FB0049A70E /* PrestoQFetcher.swift */,
 			);
-			path = Network;
+			path = PrestoQ;
 			sourceTree = "<group>";
 		};
 		FE24237E2245F7C30077FCAB /* Data */ = {
@@ -173,7 +173,7 @@
 				FEA6DD53224203760049A70E /* Main.storyboard */,
 				FEA6DD86224228590049A70E /* ManagerSpecialCollectionViewCell.swift */,
 				FEA6DD51224203760049A70E /* ManagersSpecialsViewController.swift */,
-				FE24237D2244C3290077FCAB /* Network */,
+				FE24237D2244C3290077FCAB /* PrestoQ */,
 				FEA61619224693A8001D446A /* Sparkle */,
 			);
 			path = HasanPrestoQ;
@@ -332,7 +332,7 @@
 				FEA6DD7F224203FB0049A70E /* PrestoQFetcher.swift in Sources */,
 				FE9A39EA22468D2900BA21BD /* DropShadowUtility.swift in Sources */,
 				FEA6DD87224228590049A70E /* ManagerSpecialCollectionViewCell.swift in Sources */,
-				FEA6DD8522420E230049A70E /* DataManager.swift in Sources */,
+				FEA6DD8522420E230049A70E /* PrestoQDataManager.swift in Sources */,
 				FEA6DD52224203760049A70E /* ManagersSpecialsViewController.swift in Sources */,
 				FEA6DD50224203760049A70E /* AppDelegate.swift in Sources */,
 				FEA6DD8322420B1A0049A70E /* ManagersSpecials.swift in Sources */,
