@@ -21,7 +21,7 @@ Unit tests exist for a single class, in a delivery environment more classes shou
     * Uses a UICollectionViewController to display data
     * MIT licence
     * Has Unit tests to cover ManagerSpecial  class (should cover all classes)
-    * The only place where Accissibility is not automatic (product image) an accessability label has been added
+    * Accessabity traits altered slightly to give the user a better notion of the purpose of each field.
     * The "Cell Width" data downloaded is respected for layout purposes. This results in some unusable cells. A realimplementation would handle this case.
     * Drop shadows and rounded rects for cells (there is a bug on the drop shadow that makes it rectangular)
     * Uses currency formatter with the current locale so that if you change region, the currency symbol is appropriate (unit tests will fail)
